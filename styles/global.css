@@ -3,18 +3,15 @@ body {
   /* position: absolute;
   top: 200px;
   left: 700px; */
-  align-items: center;
-  padding-top:100px;
-  display: flex;
-justify-content: center;
+  position: absolute;
 
- 
+  left: 50%;
+
+  top: 50%;
+
+  transform: translate(-50%, -50%);
 }
 
-.lamp {
-  height: 500px;
-  width: 500px;
-}
 .ceiling-circle {
   width: 200px;
   height: 30px;
@@ -39,7 +36,7 @@ justify-content: center;
   left: 25px;
   box-shadow: -1px -1px 60px 6px #be8e09d0;
   background: radial-gradient(#eccd1b, #da2c2c);
-border-radius: 50%;
+  border-radius: 50%;
   overflow: hidden;
   transition: all 1s ease-in-out;
 }
