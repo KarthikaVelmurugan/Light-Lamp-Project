@@ -1,0 +1,56 @@
+body {
+  background-color: rgba(0, 0, 0, 0.863);
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
+
+.ceiling-circle {
+  width: 200px;
+  height: 30px;
+  background-color: #e9e0da;
+  opacity: 0.9;
+  border-radius: 50%;
+}
+.rod {
+  position: absolute;
+  left: 95px;
+  width: 7px;
+  height: 150px;
+overflow: hidden;
+background: #e9e0da;
+ opacity: 0.9;
+}
+.bulb {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 180px;
+  left: 25px;
+  box-shadow: -1px -1px 60px 6px #be8e09d0;
+  background: radial-gradient(#eccd1b, #da2c2c);
+  
+  border-radius: 50%;
+ 
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+}
+
+.shutter {
+  height: 90px;
+  width: 250px;
+  position: absolute;
+  left: -26px;
+  top: 180px;
+  background-color: #e9e0da;
+  opacity: 0.6;
+  border-top-left-radius: 1000% 2000%;
+  border-top-right-radius: 1000% 2000%;  
+
+  /* border-radius:  100% 100% 2% 2%; */
+}
+
+.bulb:hover {
+    box-shadow: -1px -1px 260px 15px #a17909d0;
+
+}
